@@ -11,11 +11,6 @@ function displayanswer(){
                 iconplus[i].classList.add("hideplus") 
                 iconminus[i].classList.add("showiconminus")
 
-                // if(Array.from(answer).filter(answer => answer.classList.contains("showanswer")).length >= 3){
-                //     let main = document.querySelector("main")
-                //     main.classList.toggle("grow")
-                // }
-
             })
         }
 }
